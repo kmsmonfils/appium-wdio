@@ -1,0 +1,36 @@
+{
+  "name": "appium-wdio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:color-note-app": "npx wdio ./configs/wdio.real-world-app.conf.js",
+    "test:test-app": "npx wdio ./configs/wdio.test-app.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "appium": "^2.0.0-beta.33",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/register": "^7.17.7",
+    "@wdio/appium-service": "^7.19.5",
+    "@wdio/browserstack-service": "^7.19.7",
+    "@wdio/cli": "^7.19.6",
+    "@wdio/local-runner": "^7.19.5",
+    "@wdio/mocha-framework": "^7.19.5",
+    "@wdio/spec-reporter": "^7.19.5",
+    "appium-uiautomator2-driver": "^2.1.0",
+    "appium-xcuitest-driver": "^4.4.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-wdio": "^7.19.4"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "description": ""
+}

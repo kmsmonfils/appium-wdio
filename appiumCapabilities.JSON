@@ -1,0 +1,21 @@
+[
+  {
+    "platformName": "Android",
+    "appium:platformVersion": "10.0",
+    "appium:deviceName": "Nexus S",
+    "appium:automationName": "UIAutomator2",
+    "appium:app": "D:\\tests\\appium-WDIO\\app\\android\\NativeApp-0.4.0.apk",
+    "appWaitActivity": "com.wdiodemoapp.MainActivity"
+  },
+  {
+    "platformName": "Android",
+    "appium:platformVersion": "10.0",
+    "appium:deviceName": "Nexus S",
+    "appium:automationName": "UIAutomator2",
+    "appium:app": "D:\\tests\\appium.wdio\\app\\android\\ApiDemos-debug.apk",
+    "appium:appWaitPackage": "io.appium.android.apis",
+    "appium:noReset": false,
+    "appium:autoGrantPermissions": true,
+    "appium:appWaitActivity": "com.wdiodemoapp.MainActivity"
+  }
+]
