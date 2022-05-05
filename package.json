@@ -5,7 +5,7 @@
   "scripts": {
     "test:color-note-app": "npx wdio ./configs/wdio.real-world-app.conf.js",
     "test:test-app": "npx wdio ./configs/wdio.test-app.conf.js",
-    "test:browserstack": "npx wdio ./configs/wdio.browserstack.conf.js"
+    "test:browserstack": "npx wdio configs/wdio.browserstack.conf.js"
   },
   "keywords": [],
   "author": "",
